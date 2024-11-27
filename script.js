@@ -24,7 +24,7 @@ function submit() {
 
         totalAmount.innerHTML = `The total amount is: ${totalBill}`;
         tipAmount.innerHTML = `Your tip is ${tip}`;
-        amountPerPerson.innerHTML = `Each person pays: ${ amountPerHead}`;
+        amountPerPerson.innerHTML = `Each person pays: ${ amountPerHead.toFixed(2)}`;
        }
        // reload()
 }
