@@ -14,7 +14,7 @@
             <input type="number" id="billAmount" placeholder="Enter bill amount">
         </div>
 
-        <div class="inut-group">
+        <div class="input-group">
             <label for="">Type of tip:</label>
             <input type="radio" id="customTip" name="tipOption" checked />
             <label for="customTip">customer</label>
@@ -49,11 +49,14 @@
             </select>
         </div>
         <div class="result">
-            <h2>result:</h2>
-            <div id="tipAmount"></div>
-            <div id="totalAmount"></div>
-            <div id="amountPerPerson"></div>
+                <h2>result:</h2>
+            
+                <div class="menu">
+                <div id="tipAmount"></div>
+                <div id="totalAmount"></div>
+                <div id="amountPerPerson"></div>
         </div>
+    </div>
         <div class="btn">
             <button onclick= "submit()">Calculate</button>
        </div>

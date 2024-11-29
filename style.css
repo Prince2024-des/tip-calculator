@@ -48,12 +48,12 @@ body{
     font-family: ;
 } */
 
- .container .inut-group {
+ /* .container .inut-group {
    /* display: flex; */
    /* flex-direction: column; */
-   padding: 0 15px;
+   /* padding: 0 15px; */
    /* font-weight: 700; */
-}
+
 
 
 
@@ -74,7 +74,7 @@ body{
 
  .container .result{
     background-color:#33cc88;
-    color: aliceblue;
+    color: black;
     padding: 10px;
     margin: 10px 15px;
     border-radius: 10px;
@@ -97,11 +97,22 @@ body{
 
     }
 
-    100%{
+
+    50%{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    /* 100%{
         transform: scale(2);
         opacity: 2;
-    }
+    } */
  }
+
+
+ /* .container .result h2{
+    c
+ } */
 
 
  .container .btn{
@@ -145,6 +156,41 @@ body{
     border: none;
     cursor: pointer;
  }
+
+ .container .input-group #mealType{
+    padding: 5px;
+    background-color: #33cc88;
+    width: 100%;
+    /* color: #000; */
+    border: 2px 2px rgb(0, 0, 0,.5) ;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    
+ }
+
+ .container .input-group #mealType:hover{
+    background-color: aliceblue;
+ }
+
+
+
+
+
+ .container  .input-group #serviceRatingSelect {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #33cc88;
+    border:2px 2px rgb(0, 0, 0,.5) ;
+    cursor: pointer;
+ }
+
+ .container  .input-group #serviceRatingSelect:hover{
+    background-color: aliceblue;
+    
+ }
+
  
 
 
