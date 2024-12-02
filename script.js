@@ -34,6 +34,10 @@ function reload() {
        billAmount.value="";
        customTipAmount.value="";
        splitCount.value = "";
+       totalAmount.innerHTML = "";
+       tipAmount.innerHTML = "";
+       amountPerPerson.innerHTML = "";
+
        // result.value = "";
 }
 

@@ -15,13 +15,16 @@
         </div>
 
         <div class="input-group">
+          
             <label for="">Type of tip:</label>
+            <div class="tip">
             <input type="radio" id="customTip" name="tipOption" checked />
             <label for="customTip">customer</label>
             <input type="radio" id="serviceRating" name="tipOption"
             onchange="toggleDivVisibility()" />
             
             <label for="serviceRating">service Rating</label>
+        </div>
         </div>
         <div class="input-group" id="customTipInput">
             <label for="customTipAmount">Enter custom tip amount</label>
@@ -50,7 +53,6 @@
         </div>
         <div class="result">
                 <h2>result:</h2>
-            
                 <div class="menu">
                 <div id="tipAmount"></div>
                 <div id="totalAmount"></div>

@@ -42,6 +42,24 @@ body{
     font-weight: 300;
 }
 
+
+
+.container .input-group .tip {
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-content: center; */
+   font-weight: 500;
+   font-size: 15px;
+   
+}
+
+/* .container .input-group .tip .radio{
+      display: flex;
+      justify-content: center;
+   
+} */
+
 /* .container .inut-group label{
     font-weight: 700;
     font-size: 15px;
